@@ -1,0 +1,9 @@
+#*--*Get audio*--*#
+longpress = new Wakeup("Hello")
+longpress.AddSystem.sound(5000x005) # AppLink
+wait if(status==status.connected(true)){
+    speak("Hi, I Billi, Wait me a second to run ImoOS<{author.buy.app}> it!")
+    run(imoos)
+    speak("Welcome to ImoOS by HPDT, Please select from you phone")
+    actionWithSpeak(pro.status, "Please wait until successful download voices", "Do not wake up/power off when unzipping voice", "Please select voices from you phone", "Hi I Bill", "Processing connection start")
+}
